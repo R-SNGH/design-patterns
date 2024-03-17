@@ -1,6 +1,8 @@
 package designpatterns.singleton;
 
-public class Writer {
+import java.io.Serializable;
+
+public class Writer implements Cloneable, Serializable {
 
     private static Writer writer;
 
@@ -15,5 +17,9 @@ public class Writer {
         return writer;
     }
 
+    @Override
+    public Object clone() throws CloneNotSupportedException{
+        return new Writer();
+    }
 
 }
