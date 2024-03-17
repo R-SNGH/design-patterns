@@ -11,7 +11,5 @@ public class DemoBreakingSingleton {
         c.setAccessible(true);
         Writer mary = c.newInstance();
         System.out.println(mary.hashCode());
-
-
     }
 }
