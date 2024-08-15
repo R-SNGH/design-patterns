@@ -4,6 +4,7 @@ import java.lang.reflect.Constructor;
 
 public class BreakingSingletonDemo {
     public static void main(String[] args) throws Exception {
+        //updated
         SingletonLazy singletonLazy1 = SingletonLazy.getSingleton();
         SingletonLazy singletonLazy2 = SingletonLazy.getSingleton();
 
