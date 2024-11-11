@@ -12,6 +12,5 @@ public class SubscriberImpl implements Subscriber{
     public void update(String newsArticle) {
         System.out.println(subscriberName +" has been updated.");
         //read news
-
     }
 }
