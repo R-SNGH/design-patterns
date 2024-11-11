@@ -13,6 +13,5 @@ public class StrategyDemo {
         motorBike.drive();
         scooty.drive();
         truck.drive();
-
     }
 }

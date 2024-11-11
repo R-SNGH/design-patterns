@@ -1,2 +1,4 @@
 *.class
 out
+.idea
+design-patterns.iml
